@@ -2,12 +2,15 @@ korat
 =====
 This is "MyKorat" By Author Fei Luo
 
-Include the source code file
+Includes:
 
-Include the refactored code of exception handler
+the source code file
 
-Include the runnable jar file
+the refactored code of exception handler
 
+the runnable jar file
+
+How to run it:
 
 Download the korat-1.1.jar
 
