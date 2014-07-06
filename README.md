@@ -1,19 +1,22 @@
 korat
 =====
-This is "MyKorat" By Author Fei Luo
+This is "korat-1.1" By Author Fei Luo
+-----
 
-Includes:
+### compile it in the command line:
 
-the source code file
+    cd korat-1.1/src/Graph
+    
+    javac -cp ../../lib/korat-1.0.jar *.java -d ../../bin
 
-the refactored code of exception handler
+### run it in the command line(linux/mac):
 
-the runnable jar file
+    cd bin
+    
+    java -cp ../lib/korat-1.0.jar:../lib/junit.jar:../lib/commons-cli-1.0.jar:../lib/alloy4viz.jar:../lib/javassist.jar: Graph.MyTest --class Graph.Graph --args 2,3,4
+    
+### run it in the command line(windows):
 
-How to run it:
-
-Download the korat-1.1.jar
-
-Run the program in the cmd mode with commands
-
-e.g. java -cp korat-1.1.jar korat.MyTest --class korat.examples.Graph.Graph --args 1,2,3,4
+    cd bin
+    
+    java -cp ../lib/korat-1.0.jar;../lib/junit.jar;../lib/commons-cli-1.0.jar;../lib/alloy4viz.jar;../lib/javassist.jar; Graph.MyTest --class Graph.Graph --args 2,3,4
