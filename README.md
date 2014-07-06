@@ -1,6 +1,6 @@
 korat
 =====
-This is "MyKorat" By Author Fei Luo
+This is "korat-1.1" By Author Fei Luo
 -----
 
 ### compile it in the command line:
