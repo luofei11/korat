@@ -1,4 +1,4 @@
-package Graph;
+package graph;
 import java.util.Set;
 import java.util.HashSet;
 import korat.finitization.IArraySet;
@@ -7,7 +7,7 @@ import korat.finitization.IIntSet;
 import korat.finitization.IObjSet;
 import korat.finitization.impl.FinitizationFactory;
 
-public class Graph {
+public class graph {
     private Vertex root;
     public class Vertex {
     	private Vertex[] outgoingEdges;
@@ -81,8 +81,8 @@ public class Graph {
     }
      
     
-    public static IFinitization finGraph(int nodeNum) {
-        IFinitization f = FinitizationFactory.create(Graph.class);
+    public static IFinitization fingraph(int nodeNum) {
+        IFinitization f = FinitizationFactory.create(graph.class);
         IObjSet nodes = f.createObjSet(Vertex.class, nodeNum, false);
         IIntSet arrLen = f.createIntSet(0, nodeNum - 1);
         IArraySet outgoingEdgesArray = f.createArraySet(Vertex[].class, arrLen, nodes, nodeNum);

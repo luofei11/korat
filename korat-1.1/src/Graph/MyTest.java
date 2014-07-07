@@ -1,4 +1,4 @@
-package Graph;
+package graph;
 import java.util.Arrays;
 
 import korat.config.ConfigLoader;
@@ -12,12 +12,12 @@ import korat.testing.impl.KoratMethodException;
 import korat.testing.impl.KoratTestException;
 import korat.testing.impl.TestCradle;
 
-public class MyTest {
+public class myTest {
     
     
 	public static void main(String[] args) {
 		int i;
-		String[] myArgs = {"--class","Graph.Graph","--args","1"};
+		String[] myArgs = {"--class","graph.graph","--args","1"};
 		String[] parameters = args[3].split(",");
 		for(i = 0; i < parameters.length; i++)
 		{
